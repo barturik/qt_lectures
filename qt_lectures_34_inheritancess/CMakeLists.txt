@@ -20,5 +20,11 @@ add_executable(qt_lectures_34_inheritancess
   animal.cpp
   mammal.h
   mammal.cpp
+  canine.h
+  canine.cpp
+  feline.h
+  feline.cpp
+  monster.h
+  monster.cpp
 )
 target_link_libraries(qt_lectures_34_inheritancess Qt${QT_VERSION_MAJOR}::Core)
